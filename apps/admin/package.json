@@ -1,0 +1,18 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "Directus admin",
+  "scripts": {
+    "start": "npx directus start",
+    "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
+    "postinstall": "directus bootstrap && directus database migrate:latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "directus": "^10.7.1",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {}
+}
