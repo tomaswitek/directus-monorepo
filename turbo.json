@@ -8,8 +8,13 @@
     },
     "lint": {},
     "dev": {
+      "dependsOn": ["^build"],
       "cache": false,
       "persistent": true
+    },
+    "build:dev": {
+      "cache": false,
+      "persistent": false
     }
   }
 }
