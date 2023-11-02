@@ -30,7 +30,7 @@ importers:
         specifier: ^8.11.3
         version: 8.11.3
 
-  apps/web:
+  apps/app:
     dependencies:
       next:
         specifier: ^13.4.19
