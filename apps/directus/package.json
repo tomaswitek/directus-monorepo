@@ -3,6 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "description": "Directus admin",
+  "dependencies": {
+    "directus": "^10.7.2",
+    "pg": "^8.11.3",
+    "endpoint-example": "workspace:*"
+  },
+  "devDependencies": {
+    "create-directus-extension": "^10.0.15"
+  },
   "scripts": {
     "start": "npx directus start",
     "init-config": "cp -n example.env .env || true",
@@ -11,15 +19,9 @@
     "postinstall": "directus bootstrap && directus database migrate:latest",
     "extension": "create-directus-extension"
   },
+  "packageManager": "pnpm@8.10.2",
   "engines": {
-    "node": ">=18"
-  },
-  "dependencies": {
-    "directus": "^10.7.2",
-    "pg": "^8.11.3",
-    "endpoint-example": "workspace:*"
-  },
-  "devDependencies": {
-    "create-directus-extension": "^10.0.15"
+    "node": ">=18.0.0",
+    "pnpm": "~8.10.2"
   }
 }
