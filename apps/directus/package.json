@@ -14,6 +14,7 @@
   "scripts": {
     "start": "directus start",
     "start:directus": "directus start",
+    "build:directus": "ls -la",
     "init-config": "cp -n example.env .env || true",
     "preinstall": "pnpm init-config",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
