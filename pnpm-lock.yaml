@@ -28,7 +28,7 @@ importers:
         version: 10.7.2(vue@3.3.4)
       endpoint-test:
         specifier: workspace:*
-        version: link:../../packages/admin-extensions/endpoints/endpoint-test
+        version: link:../../packages/directus-extensions/endpoints/endpoint-test
       pg:
         specifier: ^8.11.3
         version: 8.11.3
@@ -92,7 +92,7 @@ importers:
         specifier: ^4.5.3
         version: 4.9.5
 
-  packages/admin-extensions/endpoints/endpoint-test:
+  packages/directus-extensions/endpoints/endpoint-test:
     dependencies:
       '@directus/extensions-sdk':
         specifier: ^10.1.14
