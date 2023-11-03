@@ -34,5 +34,5 @@ https://api.example.com
 ## Deploy
 
 ### Deploy Directus on Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/HsWbQ6?referralCode=KXoQwn)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/9NI1rZ?referralCode=KXoQwn)
 
