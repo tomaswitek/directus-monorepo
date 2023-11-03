@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx directus start",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
-    "postinstall": "directus bootstrap && directus database migrate:latest",
+    "postinstall": "cp example.env .env && directus bootstrap && directus database migrate:latest",
     "extension": "create-directus-extension"
   },
   "engines": {
