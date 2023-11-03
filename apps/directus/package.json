@@ -5,8 +5,9 @@
   "description": "Directus admin",
   "scripts": {
     "start": "npx directus start",
+    "preinstall": "cp example.env .env",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
-    "postinstall": "cp example.env .env && directus bootstrap && directus database migrate:latest",
+    "postinstall": "directus bootstrap && directus database migrate:latest",
     "extension": "create-directus-extension"
   },
   "engines": {
@@ -15,7 +16,7 @@
   "dependencies": {
     "directus": "^10.7.2",
     "pg": "^8.11.3",
-    "endpoint-test": "*"
+    "endpoint-test": "workspace:*"
   },
   "devDependencies": {
     "create-directus-extension": "^10.0.15"

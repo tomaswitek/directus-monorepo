@@ -27,7 +27,7 @@ importers:
         specifier: ^10.7.2
         version: 10.7.2(vue@3.3.4)
       endpoint-test:
-        specifier: '*'
+        specifier: workspace:*
         version: link:../../packages/admin-extensions/endpoints/endpoint-test
       pg:
         specifier: ^8.11.3
