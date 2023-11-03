@@ -12,7 +12,8 @@
     "create-directus-extension": "^10.0.15"
   },
   "scripts": {
-    "start": "npx directus start",
+    "start": "directus start",
+    "start:directus": "directus start",
     "init-config": "cp -n example.env .env || true",
     "preinstall": "pnpm init-config",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
