@@ -9,14 +9,6 @@
       "type": "node",
       "request": "attach",
       "port": 9229
-    },
-    {
-      "type": "node",
-      "request": "launch",
-      "name": "Launch Program",
-      "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/packages/extensions/endpoints/endpoint-test/src/index.ts",
-      "outFiles": ["${workspaceFolder}/**/*.js"]
     }
   ]
 }
