@@ -9,7 +9,7 @@ ST = VA
 L = SomeCity
 O = MyCompany
 OU = MyDivision
-CN = app.fubipod.com
+CN = app.example.com
 
 [v3_req]
 keyUsage = keyEncipherment, dataEncipherment
@@ -17,5 +17,5 @@ extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1 = app.fubipod.com
-DNS.2 = api.fubipod.com
+DNS.1 = app.example.com
+DNS.2 = api.example.com

@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "directus-monorepo",
   "private": true,
   "scripts": {
     "build": "turbo run build",
