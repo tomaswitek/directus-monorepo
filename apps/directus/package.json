@@ -12,9 +12,8 @@
     "create-directus-extension": "^10.0.15"
   },
   "scripts": {
-    "start": "ls -la && directus start",
+    "start": "directus start",
     "start:railway": "directus start",
-    "build:railway": "ls -la",
     "init-config": "cp -n example.env .env || true",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
     "build": "directus bootstrap && directus database migrate:latest",
