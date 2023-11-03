@@ -21,7 +21,7 @@ importers:
         specifier: latest
         version: 1.10.16
 
-  apps/admin:
+  apps/directus:
     dependencies:
       directus:
         specifier: ^10.7.2
@@ -37,7 +37,25 @@ importers:
         specifier: ^10.0.15
         version: 10.0.15(pg@8.11.3)(vue@3.3.4)
 
-  apps/app:
+  apps/proxy:
+    devDependencies:
+      '@types/express':
+        specifier: ^4.17.17
+        version: 4.17.17
+      express:
+        specifier: ^4.18.2
+        version: 4.18.2
+      http-proxy-middleware:
+        specifier: ^2.0.6
+        version: 2.0.6(@types/express@4.17.17)
+      ts-node-dev:
+        specifier: ^2.0.0
+        version: 2.0.0(@types/node@20.8.10)(typescript@4.9.5)
+      typescript:
+        specifier: ^4.9.5
+        version: 4.9.5
+
+  apps/web:
     dependencies:
       next:
         specifier: ^13.4.19
@@ -72,24 +90,6 @@ importers:
         version: link:../../packages/tsconfig
       typescript:
         specifier: ^4.5.3
-        version: 4.9.5
-
-  apps/proxy:
-    devDependencies:
-      '@types/express':
-        specifier: ^4.17.17
-        version: 4.17.17
-      express:
-        specifier: ^4.18.2
-        version: 4.18.2
-      http-proxy-middleware:
-        specifier: ^2.0.6
-        version: 2.0.6(@types/express@4.17.17)
-      ts-node-dev:
-        specifier: ^2.0.0
-        version: 2.0.0(@types/node@20.8.10)(typescript@4.9.5)
-      typescript:
-        specifier: ^4.9.5
         version: 4.9.5
 
   packages/admin-extensions/endpoints/endpoint-test:

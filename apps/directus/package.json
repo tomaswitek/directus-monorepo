@@ -1,5 +1,6 @@
 {
-  "name": "admin",
+  "name": "directus",
+  "private": true,
   "version": "1.0.0",
   "description": "Directus admin",
   "scripts": {
