@@ -5,7 +5,8 @@
   "description": "Directus admin",
   "scripts": {
     "start": "npx directus start",
-    "preinstall": "cp example.env .env",
+    "init-config": "cp -n example.env .env || true",
+    "preinstall": "pnpm init-config",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
     "postinstall": "directus bootstrap && directus database migrate:latest",
     "extension": "create-directus-extension"
