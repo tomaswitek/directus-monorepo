@@ -23,10 +23,10 @@ pnpm run dev
 
 Open following URLs in Browser:
 ```
-<!-- # web -->
+# web
 https://example.com 
 
-<!-- # directus -->
+# directus
 https://api.example.com
 ```
 
