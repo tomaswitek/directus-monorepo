@@ -2,10 +2,12 @@
   "name": "directus-monorepo",
   "private": true,
   "scripts": {
-    "build": "turbo run build:directus",
-    "build:directus": "turbo run build:directus",
-    "start:directus": "turbo run start:directus",
-    "start": "turbo run start:directus",
+    "build": "turbo run build:railway",
+    "build:railway": "turbo run build:railway",
+    "build:local": "turbo run build:local",
+    "start": "turbo run start:railway",
+    "start:railway": "turbo run start:railway",
+    "start:local": "turbo run start:local",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""

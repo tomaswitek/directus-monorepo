@@ -5,6 +5,7 @@ Run the following command:
 
 ```sh
 pnpm install
+pnpm build:local
 ```
 
 Add following records to `/etc/hosts`:
@@ -18,7 +19,7 @@ Add following records to `/etc/hosts`:
 Run the following command:
 
 ```sh
-pnpm run dev
+pnpm dev
 ```
 
 Open following URLs in Browser:

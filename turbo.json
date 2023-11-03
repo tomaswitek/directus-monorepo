@@ -6,13 +6,17 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
-    "build:directus": {
-      "dependsOn": ["^build:directus"]
+    "build:railway": {
+      "dependsOn": ["^build:railway"]
     },
-    "start:directus": {},
+    "build:local": {
+      "dependsOn": ["^build:local"]
+    },
     "start": {
       "persistent": true
     },
+    "start:railway": {},
+    "start:local": {},
     "lint": {},
     "dev": {
       "cache": false,
