@@ -9,7 +9,7 @@ const app = express();
 const options: Options = {
   router: {
     "api.example.com": "http://127.0.0.1:8055",
-    "app.example.com": "http://127.0.0.1:3000",
+    "example.com": "http://127.0.0.1:3000",
   },
   target: "http://127.0.0.1:3000",
   ws: true,
