@@ -8,6 +8,9 @@
     },
     "build:directus": {},
     "start:directus": {},
+    "start": {
+      "persistent": true
+    },
     "lint": {},
     "dev": {
       "cache": false,
