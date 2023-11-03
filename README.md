@@ -7,7 +7,7 @@ Run the following command:
 pnpm install
 ```
 
-Add following records to `/etc/hosts`
+Add following records to `/etc/hosts`:
 ```sh
 127.0.0.1       api.example.com
 127.0.0.1       example.com
