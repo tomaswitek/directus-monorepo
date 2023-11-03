@@ -17,7 +17,7 @@
   "dependencies": {
     "directus": "^10.7.2",
     "pg": "^8.11.3",
-    "endpoint-test": "workspace:*"
+    "endpoint-example": "workspace:*"
   },
   "devDependencies": {
     "create-directus-extension": "^10.0.15"
