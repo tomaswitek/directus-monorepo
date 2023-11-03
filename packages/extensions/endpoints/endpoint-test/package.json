@@ -20,8 +20,10 @@
     "dev": "directus-extension build -w --no-minify --sourcemap -- --inspect",
     "link": "directus-extension link"
   },
+  "dependencies": {
+    "@directus/extensions-sdk": "^10.1.14"
+  },
   "devDependencies": {
-    "@directus/extensions-sdk": "10.1.14",
     "@types/node": "^20.8.10",
     "typescript": "^5.2.2"
   }

@@ -17,7 +17,6 @@
     "endpoint-test": "*"
   },
   "devDependencies": {
-    "create-directus-extension": "^10.0.15",
-    "rollup": "^2.63.0"
+    "create-directus-extension": "^10.0.15"
   }
 }

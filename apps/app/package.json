@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "devv": "next dev",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED='0' next dev",
     "buildd": "next build",
     "start": "next start",
     "lint": "next lint"
