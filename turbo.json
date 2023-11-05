@@ -16,7 +16,9 @@
     "start": {
       "persistent": true
     },
-    "start:railway": {},
+    "start:railway": {
+      "persistent": true
+    },
     "start:local": {},
     "lint": {},
     "dev": {
