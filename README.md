@@ -5,6 +5,7 @@ Run the following command:
 
 ```sh
 pnpm install
+pnpm build:local
 ```
 
 Add following records to `/etc/hosts`:
@@ -18,7 +19,7 @@ Add following records to `/etc/hosts`:
 Run the following command:
 
 ```sh
-pnpm run dev
+pnpm dev
 ```
 
 Open following URLs in Browser:
@@ -33,5 +34,8 @@ https://api.example.com
 ## Deploy
 
 ### Deploy Directus on Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/HsWbQ6?referralCode=KXoQwn)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/9NI1rZ?referralCode=KXoQwn)
+
+### Deploy Web on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftomaswitek%2Fdirectus-monorepo)
 
