@@ -1,6 +1,6 @@
 version: 1
 directus: 14.0.2
-vendor: sqlite
+vendor: pg
 collections:
   - collection: categories
     meta:
@@ -307,15 +307,15 @@ fields:
         choices:
           - text: $t:published
             value: published
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--primary)
           - text: $t:draft
             value: draft
-            foreground: '#18222F'
-            background: '#D3DAE4'
+            foreground: "#18222F"
+            background: "#D3DAE4"
           - text: $t:archived
             value: archived
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--warning)
         showAsDot: true
       field: status
@@ -369,7 +369,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 4
@@ -409,7 +409,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 6
@@ -605,15 +605,15 @@ fields:
         choices:
           - text: $t:published
             value: published
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--primary)
           - text: $t:draft
             value: draft
-            foreground: '#18222F'
-            background: '#D3DAE4'
+            foreground: "#18222F"
+            background: "#D3DAE4"
           - text: $t:archived
             value: archived
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--warning)
         showAsDot: true
       field: status
@@ -667,7 +667,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 4
@@ -707,7 +707,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 6
@@ -903,15 +903,15 @@ fields:
         choices:
           - text: $t:published
             value: published
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--primary)
           - text: $t:draft
             value: draft
-            foreground: '#18222F'
-            background: '#D3DAE4'
+            foreground: "#18222F"
+            background: "#D3DAE4"
           - text: $t:archived
             value: archived
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--warning)
         showAsDot: true
       field: status
@@ -965,7 +965,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 4
@@ -1005,7 +1005,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 6
@@ -1200,15 +1200,15 @@ fields:
         choices:
           - text: $t:published
             value: published
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--primary)
           - text: $t:draft
             value: draft
-            foreground: '#18222F'
-            background: '#D3DAE4'
+            foreground: "#18222F"
+            background: "#D3DAE4"
           - text: $t:archived
             value: archived
-            foreground: '#FFFFFF'
+            foreground: "#FFFFFF"
             background: var(--theme--warning)
         showAsDot: true
       field: status
@@ -1262,7 +1262,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 4
@@ -1302,7 +1302,7 @@ fields:
       interface: select-dropdown-m2o
       note: null
       options:
-        template: '{{avatar.$thumbnail}} {{first_name}} {{last_name}}'
+        template: "{{avatar.$thumbnail}} {{first_name}} {{last_name}}"
       readonly: true
       required: false
       sort: 6
