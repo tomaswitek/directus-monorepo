@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "directus start",
-    "start:railway": "pnpm start",
+    "start:railway": "directus start",
     "build:railway": "cd ../../packages/directus-extensions && rm .gitignore",
     "init-config": "cp -n example.env .env || true",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
