@@ -18,7 +18,9 @@
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
     "build": "directus bootstrap && directus database migrate:latest",
     "build:local": "pnpm init-config && pnpm build",
-    "extension": "create-directus-extension"
+    "build:railway": "directus schema apply --yes ./schema.yaml",
+    "extension": "create-directus-extension",
+    "db:snapshot": "directus schema snapshot ./schema.yml"
   },
   "packageManager": "pnpm@8.10.2",
   "engines": {
