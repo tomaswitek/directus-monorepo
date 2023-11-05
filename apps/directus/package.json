@@ -13,12 +13,12 @@
   },
   "scripts": {
     "start": "directus start",
-    "start:railway": "directus start",
+    "start:railway": "pnpm db:apply && directus start",
     "init-config": "cp -n example.env .env || true",
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
     "build": "directus bootstrap && directus database migrate:latest",
     "build:local": "pnpm init-config && pnpm build",
-    "build:railway": "directus schema apply --yes ./schema.yaml",
+    "db:apply": "directus schema apply --yes ./schema.yaml",
     "extension": "create-directus-extension",
     "db:snapshot": "directus schema snapshot ./schema.yml"
   },
