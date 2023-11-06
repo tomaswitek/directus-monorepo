@@ -1,8 +1,8 @@
-[phases.setup]
-aptPkgs = ['build-essential', 'glibc-source']
-nixPkgs = ['...', 'python311']
+# [phases.setup]
+# aptPkgs = ['build-essential', 'glibc-source']
+# nixPkgs = ['...', 'python311']
 [phases.build]
 cmds = ["pnpm run build:railway"]
-paths = ['/app/packages/directus-extensions/*/*/*.*js']
+# paths = ['/app/packages/directus-extensions/*/*/*.*js']
 [start]
 cmd = 'pnpm run start:railway'
