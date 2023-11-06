@@ -1,0 +1,2 @@
+[phase.build]
+  paths = ['/app/packages/directus-extensions/*/*/*.*js']
