@@ -18,7 +18,7 @@
   "scripts": {
     "build": "directus-extension build",
     "dev": "directus-extension build -w --no-minify --sourcemap -- --inspect",
-    "build:railway": "pnpm build && ls -la",
+    "build:railway": "pnpm build",
     "build:local": "pnpm build"
   },
   "dependencies": {

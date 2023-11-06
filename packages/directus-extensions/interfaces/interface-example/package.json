@@ -19,7 +19,7 @@
     "build": "directus-extension build",
     "dev": "directus-extension build -w --no-minify --sourcemap -- --inspect",
     "link": "directus-extension link",
-    "build:railway": "pnpm build && ls -la",
+    "build:railway": "pnpm build",
     "build:local": "pnpm build"
   },
   "devDependencies": {
