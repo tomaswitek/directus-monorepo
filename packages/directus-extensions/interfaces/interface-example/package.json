@@ -18,7 +18,9 @@
   "scripts": {
     "build": "directus-extension build",
     "dev": "directus-extension build -w --no-minify --sourcemap -- --inspect",
-    "link": "directus-extension link"
+    "link": "directus-extension link",
+    "build:railway": "pnpm build",
+    "build:local": "pnpm build"
   },
   "devDependencies": {
     "@directus/extensions-sdk": "10.1.14",
