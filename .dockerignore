@@ -1,0 +1,6 @@
+# Exclude all files in the directus-extensions directory
+!./packages/directus-extensions/
+
+# Include JavaScript and source map files
+./packages/directus-extensions/*/*/*.js
+./packages/directus-extensions/*/*/*.js.map
