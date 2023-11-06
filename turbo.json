@@ -8,7 +8,10 @@
     },
     "build:railway": {
       "dependsOn": ["^build:railway"],
-      "outputs": ["./packages/direcuts-extensions/*/*/index.js"]
+      "outputs": [
+        "./packages/directus-extensions/*/*/*.*js",
+        "./packages/directus-extensions/*/*/*.*js.map"
+      ]
     },
     "build:local": {
       "dependsOn": ["^build:local"]
