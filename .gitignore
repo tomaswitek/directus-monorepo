@@ -36,5 +36,5 @@ yarn-error.log*
 .vercel
 
 # directus-extensions
-# packages/directus-extensions/*/*/*.*js
-# packages/directus-extensions/*/*/*.*js.map
+packages/directus-extensions/*/*/*.*js
+packages/directus-extensions/*/*/*.*js.map
