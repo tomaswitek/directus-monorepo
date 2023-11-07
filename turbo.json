@@ -8,7 +8,7 @@
     },
     "build:railway": {
       "dependsOn": ["^build:railway"],
-      "outputs": ["index.js"]
+      "outputs": ["index.js", "dist/**"]
     },
     "build:local": {
       "dependsOn": ["^build:local"]
