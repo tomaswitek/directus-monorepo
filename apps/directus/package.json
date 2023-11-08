@@ -7,7 +7,8 @@
     "directus": "^10.7.2",
     "pg": "^8.11.3",
     "directus-extension-endpoint-example": "workspace:*",
-    "directus-extension-interface-example": "workspace:*"
+    "directus-extension-interface-example": "workspace:*",
+    "directus-extension-operation-example": "workspace:*"
   },
   "devDependencies": {
     "create-directus-extension": "^10.0.15"

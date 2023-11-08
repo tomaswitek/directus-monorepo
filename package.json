@@ -8,7 +8,7 @@
     "start": "turbo run start:railway",
     "start:railway": "turbo run start:railway",
     "start:local": "turbo run start:local",
-    "dev": "turbo run dev",
+    "dev": "turbo run dev --concurrency 11",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
