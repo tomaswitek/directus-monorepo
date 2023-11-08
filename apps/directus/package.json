@@ -20,8 +20,8 @@
     "dev": "NODE_OPTIONS='--inspect' NODE_TLS_REJECT_UNAUTHORIZED='0' directus start",
     "build": "directus bootstrap && directus database migrate:latest",
     "build:local": "pnpm init-config && pnpm build",
-    "build:railway": "ls -la && ls -la /apps/directus && directus schema apply --yes /apps/directus/schema.yaml",
-    "db:apply": "directus schema apply --yes ./schema.yaml",
+    "build:railway": "pnpm db:apply",
+    "db:apply": "directus schema apply --yes ./schema.yml",
     "extension": "create-directus-extension",
     "db:snapshot": "directus schema snapshot ./schema.yml",
     "bootstrap": "directus bootstrap"
