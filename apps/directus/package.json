@@ -22,7 +22,8 @@
     "build:local": "pnpm init-config && pnpm build",
     "db:apply": "directus schema apply --yes ./schema.yaml",
     "extension": "create-directus-extension",
-    "db:snapshot": "directus schema snapshot ./schema.yml"
+    "db:snapshot": "directus schema snapshot ./schema.yml",
+    "bootstrap": "directus bootstrap"
   },
   "packageManager": "pnpm@8.10.2",
   "engines": {
