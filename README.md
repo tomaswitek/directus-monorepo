@@ -34,7 +34,7 @@ https://api.example.com
 ## Deploy
 
 ### Deploy Directus on Railway
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/9NI1rZ?referralCode=KXoQwn)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/9NI1rZ?referralCode=HsWbQ6)
 
 ### Deploy Web on Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftomaswitek%2Fdirectus-monorepo)
